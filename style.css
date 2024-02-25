@@ -4,7 +4,7 @@
     overflow: none;
 }
 
-.container{
+.contain-body{
     height: 100%;
     width: 100%;
     padding: 10px ;
@@ -13,6 +13,16 @@
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
 }
+
+/*.container{
+    height: 100%;
+    width: 100%;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+}*/
 
 .select{
     box-sizing: border-box;
@@ -286,6 +296,11 @@ p{
     gap: 20px;
 }
 
+.image{
+    width: 50%;
+    height: 100%;
+}
+
 /*media screens*/
 
 @media(max-width: 670px){
@@ -306,7 +321,7 @@ p{
 
     .open{
         display: block;
-        width: 30px;
+        width: 20px;
         height: 15px;
     }
 
@@ -329,7 +344,7 @@ p{
         margin: 0;
     }
 
-    .body1 img{
+    .image{
         margin: 40px 0 0px 0;
         height: 70%;
         width: 100%;
@@ -361,7 +376,7 @@ p{
     }
 
     .logo{
-        margin: 0px 0 40px 0;
+        margin: 20px 0 40px 0;
         display: flex;
         align-items: center;
         gap: 15px;
