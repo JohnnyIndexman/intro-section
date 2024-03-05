@@ -6,23 +6,12 @@
 
 .contain-body{
     height: 100%;
-    width: 100%;
     padding: 10px ;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     font-family: "Roboto", sans-serif;
 }
-
-/*.container{
-    height: 100%;
-    width: 100%;
-    padding: 10px ;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    font-family: "Roboto", sans-serif;
-}*/
 
 .select{
     box-sizing: border-box;
